@@ -1,0 +1,16 @@
+{
+    "env": { //配置环境
+        "browser": true,  //浏览器环境
+        "es2021": true, // es2021 - adds all ECMAScript 2021 globals and automatically sets the ecmaVersion parser option to 12
+        "node": true  // node 环境
+    },
+    "extends": [
+        "standard"
+    ],
+    "parserOptions": { // 解析选项
+        "ecmaVersion": 12  //ecma 解析器
+    },
+    "rules": {
+        
+    }
+}
